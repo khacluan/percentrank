@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'percentrank/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "percentrank"
+  spec.name          = "ruby_percentrank"
   spec.version       = Percentrank::VERSION
   spec.authors       = ["khacluan"]
   spec.email         = ["dangluan20@gmail.com"]
