@@ -24,8 +24,8 @@ Or install it yourself as:
 ```ruby
 require 'percentrank'
 
-(150..200).percentrank(160)  #=> 0.2. Because "result == (160 - 150) / (200 - 150)".
-(100..200).percentrank(160)  #=> 0.6. Because "result == (160 - 100) / (200 - 100)".
+([125, 150, 160, 90]).percentrank(125)  #=> 0.33.
+([12 , 13, 14, 10]).percentrank(14)  #=> 1 .
 ```
 
 ## Contributing

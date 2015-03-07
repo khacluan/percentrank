@@ -6,11 +6,11 @@ require 'percentrank/version'
 Gem::Specification.new do |spec|
   spec.name          = "percentrank"
   spec.version       = Percentrank::VERSION
-  spec.authors       = ["asatou"]
-  spec.email         = ["asatou@val.co.jp"]
+  spec.authors       = ["khacluan"]
+  spec.email         = ["dangluan20@gmail.com"]
   spec.description   = %q{Add Array#percentrank(value) and Range#percentrank(value).}
-  spec.summary       = %q{}
-  spec.homepage      = ""
+  spec.summary       = %q{This gem used to calculate excel's percentrank in ruby}
+  spec.homepage      = "http://khacluan.github.io"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
